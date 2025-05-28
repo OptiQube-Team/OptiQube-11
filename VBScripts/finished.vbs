@@ -1,0 +1,1 @@
+X=MsgBox ("OptiQube 11 Finished its installation please reboot", 0+64 ,"OQ11")
