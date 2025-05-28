@@ -114,7 +114,7 @@ echo ---------------------------------------------------------------------------
 echo Setup is changing Wallpaper...
 echo --------------------------------------------------------------------------------------------------
 echo on
-reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d C:\Windows\OptiQube11v01\FILES\Wallpapers\OptiQube.png /f
+reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d C:\Windows\OptiQube11v01\Core\Wallpapers\OptiQube.png /f
 echo off
 cls
 echo ---------------------------------------------------------------------------------------------------------
@@ -130,7 +130,7 @@ if /i %input%== 1 no,goto
 
 
 :Yes
-cd C:\Windows\OptiQube11v01\FILES\HackBGRT
+cd C:\Windows\OptiQube11v01\Core\HackBGRT
 echo --------------------------------------------------------------------------------------
 echo CAUTION Window Will Be Pop Out Please Input "i" to Change Boot Logo.
 echo --------------------------------------------------------------------------------------
@@ -139,7 +139,7 @@ setup.exe
 echo --------------------------------------------------------------------------------------
 echo Boot logo Was Successfully Applyed. Setup Will Now Uninstall Microsoft Edge
 echo --------------------------------------------------------------------------------------
-cd C:\Windows\OptiQube11v01\FILES
+cd C:\Windows\OptiQube11v01\Core
 REDGE.exe
 
 
@@ -149,7 +149,7 @@ REDGE.exe
 echo ------------------------------------------------------------------------------------------------
 echo Setup Will Now Uninstall Microsoft Edge.
 echo ------------------------------------------------------------------------------------------------
-cd FILES
+cd Core
 REDGE.exe
 
 
